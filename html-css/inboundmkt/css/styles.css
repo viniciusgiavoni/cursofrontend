@@ -1,0 +1,149 @@
+html {
+    font-size: 62,5%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-container {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: #ffffff;
+    padding: 25px;
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #303030;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #EC008B;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #EC008B;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #EC008B;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #EC008B;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.2;
+    color: #303030;
+}
+
+ol {
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+
+ol li {
+    font-size: 1.2rem;
+    color: #303030;
+}
+
+section {
+    display: block;
+    font-size: 1.2rem; /* equivalente a 15px */
+    width: 100%;
+    padding: 25px;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav li {
+    margin: 2px 20px 2px 0;
+    padding: 10px;
+    background-color: #ec008a90;
+}
+
+nav li:hover {
+    background-color: #4284C590;
+}
+
+nav a {
+    text-decoration: none;
+    color: #303030;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+footer {
+    background-color: #EC008B;
+    color: #ffffff;
+    float: left;
+    width: 100vw;
+    padding: 25px;
+    text-align: center;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cognito {
+    height: 400px !important;
+    overflow: hidden;
+}
+
+.section-form {
+    display: block;
+    float: left;
+    width: 100vw;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
