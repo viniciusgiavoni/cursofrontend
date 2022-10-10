@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #575757;
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 .container {
     display: block;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header {
@@ -103,14 +103,14 @@ nav a {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 60%;
 }
 
 footer {
     background-color: #EC008B;
     color: #ffffff;
     float: left;
-    width: 100%;
+    width: 100vw;
     padding: 25px;
     text-align: center;
 }
@@ -122,4 +122,16 @@ footer small {
 
 img {
     max-width: 100%;
+    height: auto;
+}
+
+.cognito {
+    height: 400px !important;
+    overflow: hidden;
+}
+
+.section-form {
+    display: block;
+    float: left;
+    width: 100vw;
 }
