@@ -26,9 +26,39 @@ if(media >= 8 ) {
 1° condição de entrada
 2° condição de saída
 Estrutura:
-for ([expressaoInicial]; [condicao]; [incremento])
+for ([expressaoInicial]; [condicao]; [incremento]){
+}
+
+while ([condicao]) {
+    [execucao]
+}
+
+do {
+    [execução]
+} while {[condição]}
 
 ...
+var contador = 0;
+while( contador < 10) {
+    contador++
+}
+
+...
+var hora = 24;
+while(hora > 0) {
+    
+    console.log(hora);
+		hora--
+}
+
+console.log("total de horas " + hora);
+...
+
+do {
+    execução
+} while {condição}
+...
+
 //fazer revisão do carro aos 10 km
 
 ex de estrutura:
@@ -70,3 +100,26 @@ for (var i = 0; i < alunos.length; i++){
     console.log("Media: " + media + " - " + resultado);
 
 }
+
+## Funções
+
+- Evitar repetição de código
+- Realizar chamadas dinâmicas de algoritimos
+
+function calcularMedia( notas ) {
+
+    var soma = 0;
+    for( c = 0; c < notas.length; c++) {
+        notas += notas[c];
+    }
+
+    media = soma / notas.length;
+
+    return media;
+
+}
+
+console.log( "Média " + calcularMedia([8, 8]))
+
+## Funções recursivas
+
