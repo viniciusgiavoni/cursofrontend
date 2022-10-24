@@ -8,32 +8,30 @@
 </head>
 <body>
 
-    <div class="container">
+    <div>
 
-        <form id="formulario-01">
+        <form>
 
-            <input type="text" placeholder="digite um número" name="n1">
+            <input type="text" placeholder="digite o valor do carro" id="valorCarro" name="valorCarro">
 
-            <input type="text" placeholder="digite um número" name="n2">
+            <input type="text" placeholder="digite entrada" id="valorEntrada" name="valorEntrada">
 
-            <input type="text" placeholder="digite um número" name="n3">
+            <input type="text" placeholder="digite o valor da parcela" id="valorParcela" name="valorParcela">
 
-            <input type="text" placeholder="digite um número" name="n4">
-
-            <button type="submit">Enviar</button>
+            <button type="button" onclick="quantidadeParcelas()">Calcular</button>
             
         </form>
 
-        <div id="resultado">
-
+        <div style="background-color: #f5b5d5; width: 300px; padding: 1%; text-align: center; margin: 1%;">
+           <p id="parcelas">Resultado:</p>
         </div>
 
     </div>
 
 
-    <script type="texto/javascript" src="./js/javascript.js"></script>
+    <script type="text/javascript" src="./js/exerciciojavascript.js" > 
 
-
+    </script>
 
 </body>
 </html>
